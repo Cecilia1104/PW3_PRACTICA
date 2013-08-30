@@ -27,7 +27,16 @@ namespace WebApplication2
         y si es binario a binario*/
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-          //lblresultado.Text = Convert.ToString(resultado, 2); //para binario
+            switch (DropDownList1)
+            {
+                case "decimal":
+                    lblresultado.Text = Convert.ToString(resultado);
+                    break;
+                case "binario":
+                      lblresultado.Text = Convert.ToString(resultado, 2); 
+                    break;
+            }
+            
 
         
         }
