@@ -8,7 +8,7 @@
 //    class Class2
 //    {
 //        enum DiasSemana { Lunes = 0, Martes = 1, Miercoles = 2, Jueves = 3, Viernes = 4, Sabado = 5, Domingo = 6 }
-//        enum Color {[StringValue("Color Rojo")] Rojo, Blanco, Negro }
+//        enum Color { Rojo, Blanco, Negro }
 //        static void Main(string[] args)
 //        {
 //            const int cantidad = 100;
@@ -17,7 +17,9 @@
 //            Console.WriteLine(cantidad);
 //            //Console.Read();
 
-//            Console.Write("enumeraciones\nHoy es:");
+//            Console.Write("Enumeraciones\nHoy es:");
+//            Console.WriteLine(DiasSemana.Martes);
+//            Console.Write("Enumeraciones\nMartes equivalente en numero:");
 //            Console.WriteLine((int)DiasSemana.Martes); //Con int se castea la variable
 //            //Console.Read();
 
@@ -25,19 +27,7 @@
 //            Console.WriteLine(Color.Rojo);
 //            Console.Read();
 //        }
-//        public class StringValue : System.Attribute
-//        {
-//            private String _value;
-//            public StringValue(String value)
-//            {
-//                _value = value;
-                 
-//            }
-//        }
-//    public String Value
-//{
-//    get { return _value; }
-//}
-//}
+
+//    }
 //}
 

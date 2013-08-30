@@ -8,3 +8,8 @@ C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\28d08\
 C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\28d08\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\28d08\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\28d08\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Documents and Settings\Vaio\PW3_PRACTICA\28d08\WebApplication2\bin\WebApplication2.dll
+C:\Documents and Settings\Vaio\PW3_PRACTICA\28d08\WebApplication2\bin\WebApplication2.pdb
+C:\Documents and Settings\Vaio\PW3_PRACTICA\28d08\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\PW3_PRACTICA\28d08\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Documents and Settings\Vaio\PW3_PRACTICA\28d08\WebApplication2\obj\Debug\WebApplication2.pdb

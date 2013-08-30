@@ -7,28 +7,29 @@
 //        static void Main(string[] args)
 //        {
 
-//            //Int32 a;
 //            //string mensaje = "Hola Mundo";
 //            //mensaje = "\"Hola\"";
 //            //mensaje = "Hola\n Mundo";
 //            //mensaje = @"Hola\n";
 //            //Console.WriteLine(mensaje);
+//            Console.WriteLine("Escriba dos numeros:");
+         
+//             string a=Console.ReadLine();
+//             string b=Console.ReadLine();
+//             int aa = int.Parse(a);
+//             int bb = int.Parse(b);
+//            SumaNumericos(aa, bb);
 //        }
 
 //        static void SumaNumericos(int a, int b)
 //        {
 //            int suma = 0;
-//            Console.WriteLine("Escriba dos numeros");
-//            Console.ReadLine();
-
-
 //            suma = a + b;
-//            //return suma;
-//            Console.Write("Muestra suma");
+//            Console.Write("Muestra suma:\n");
 //            Console.WriteLine(suma);
 //            Console.Read();
 
-        
-//    }
+
+//        }
 //    }
 //}

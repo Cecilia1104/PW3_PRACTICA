@@ -8,9 +8,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Calculadora</title>
 </head>
 <body>
+<span>Suma los numeros ingresados y permite pasarlos a decimal o binario:</span>
     <form id="form1" runat="server">
     
    

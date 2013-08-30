@@ -1,11 +1,13 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="calculadora.ascx.cs" Inherits="WebApplication2.WebUserControl1" %>
  <asp:TextBox ID="txtentrada" runat="server"></asp:TextBox>
-    <asp:Button ID="btnsumar" runat="server" Text="Button" 
+    <asp:Button ID="btnsumar" runat="server" Text="Sumar" 
         onclick="btnsumar_Click" />
-    <asp:Label ID="lblresultado" runat="server" Text="Label"></asp:Label>
+    <br />Resultado: <asp:Label ID="lblresultado" runat="server" Text="Resultado:"></asp:Label>
 
-    <asp:DropDownList ID="DropDownList1" runat="server" 
+   <br /> <asp:DropDownList ID="DropDownList1" runat="server" 
         onselectedindexchanged="DropDownList1_SelectedIndexChanged">
-     <asp:ListItem Value="decimal">decimal</asp:ListItem>
-     <asp:ListItem Value="binario">binario</asp:ListItem>
+     <asp:ListItem Value="0" Text="---Seleccione una opcion ---"></asp:ListItem>
+     <asp:ListItem Value="decimal">Decimal</asp:ListItem>
+     <asp:ListItem Value="binario">Binario</asp:ListItem>
     </asp:DropDownList>
+    
