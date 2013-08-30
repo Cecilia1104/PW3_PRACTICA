@@ -1,7 +1,7 @@
-    Programacion Web 3 - UNLaM
+Programacion Web 3 - UNLaM
 =================================
 
-Ejercicios realizados en las distintas clases de la materia organizados por fecha.
+En este repositorio se encontraran los ejercicios realizados en las distintas clases de la materia organizados en su mayoria por fecha.
 
 [Juliana - Cecilia]
 
