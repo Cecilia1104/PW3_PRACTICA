@@ -6,8 +6,9 @@
 
    <br /> <asp:DropDownList ID="DropDownList1" runat="server" 
         onselectedindexchanged="DropDownList1_SelectedIndexChanged">
-     <asp:ListItem Value="0" Text="---Seleccione una opcion ---"></asp:ListItem>
+     
      <asp:ListItem Value="decimal">Decimal</asp:ListItem>
      <asp:ListItem Value="binario">Binario</asp:ListItem>
     </asp:DropDownList>
     
+ 
