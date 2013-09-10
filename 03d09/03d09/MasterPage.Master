@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="_03d09.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" href="Estilos.css" type="text/css" /> <%-- Enlace a la hoja de estilos, dentro del head --%>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <%-- Comienza el encabezado --%>
+    <div id="Encabezado">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+    </div>
+   <%-- Comienza el cuerpo --%>
+    <div id="Cuerpo">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:TextBox ID="txtmaster" runat="server"><%--Boton para acceder a la Master Page desde el Content Page --%>
+    </asp:TextBox>
+    </div>
+   <%-- Comienza el pie de pagina --%>
+    <div id="Pie">
+    <asp:ContentPlaceHolder ID="pie" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

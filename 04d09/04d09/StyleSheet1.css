@@ -1,0 +1,13 @@
+﻿body 
+{
+    background-color:Olive;
+    
+}
+#form 
+{
+    border-style:dotted; border-color:#ddefee; color: Blue; margin-left:150px; margin-right:250px; margin-top:50px; font-family: Bell MT; font-size:16px;
+}
+#contenedor
+{
+    border-style:groove; border-color:Gray; color: Black;
+}
