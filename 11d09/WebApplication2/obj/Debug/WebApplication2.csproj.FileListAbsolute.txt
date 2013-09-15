@@ -3,3 +3,8 @@ C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplic
 C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
 C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Documents and Settings\Vaio\PW3_PRACTICA\11d09\WebApplication2\bin\WebApplication2.dll
+C:\Documents and Settings\Vaio\PW3_PRACTICA\11d09\WebApplication2\bin\WebApplication2.pdb
+C:\Documents and Settings\Vaio\PW3_PRACTICA\11d09\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\PW3_PRACTICA\11d09\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Documents and Settings\Vaio\PW3_PRACTICA\11d09\WebApplication2\obj\Debug\WebApplication2.pdb

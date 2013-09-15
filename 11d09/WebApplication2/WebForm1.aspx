@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
+    Ejemplo de POO: <br />
         <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
     </div>
     </form>
