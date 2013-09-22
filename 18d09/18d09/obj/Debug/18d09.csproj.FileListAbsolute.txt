@@ -1,0 +1,5 @@
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\18d09\18d09\bin\18d09.dll
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\18d09\18d09\bin\18d09.pdb
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\18d09\18d09\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\18d09\18d09\obj\Debug\18d09.dll
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\18d09\18d09\obj\Debug\18d09.pdb
