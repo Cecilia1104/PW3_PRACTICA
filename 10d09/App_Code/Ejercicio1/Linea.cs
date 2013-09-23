@@ -7,8 +7,8 @@ namespace Ejemplos.POO.Ejercicio1
 {
     public class Linea
     {
-        public Punto PuntoA { get; set; }
-        public Punto PuntoB { get; set; }
+        public Punto PuntoA;  //{ get; set; }
+        public Punto PuntoB; //{ get; set; }
 
         public Linea()
         {

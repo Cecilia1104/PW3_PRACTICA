@@ -11,16 +11,23 @@ namespace WebApplication2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Facturador fa = new FacturadorArgentina();
-            String msj = fa.Saludo();
-
+           
             Facturador fac = new Facturador();
-            String msj2 = fac.Saludo();
+            String msj1 = fac.Saludo();
 
-            Label1.Text = msj2;
+            //Para el facturador de Argentina:
+            Facturador fa = new FacturadorArgentina();
+            String msj2 = fa.Saludo();
 
+            Label1.Text = String.Format("{0} {1}", msj1, msj2);
+
+            //Para el facturador de China:
             Facturador fachi = new FacturadorChina();
-            fa.Facturar();
+            String msj3 = fachi.Saludo();
+
+            Label2.Text = String.Format("{0} {1}", msj1, msj3);
+
+
         }
     }
 }
