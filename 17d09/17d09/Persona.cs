@@ -11,7 +11,7 @@ namespace _17d09
         protected int edad;
         protected float altura;
 
-        public Persona(string nombre, int edad):this()
+        public Persona(string nombre, int edad)
         {
             this.nombre = nombre;
             this.edad = edad;

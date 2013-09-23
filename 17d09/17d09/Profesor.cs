@@ -7,7 +7,11 @@ namespace _17d09
 {
     public class Profesor:Persona
     {
-        public Profesor(string nombre, int edad, float altura) {}
+        public Profesor(string nombre, int edad, float altura)
+        {
+            this.nombre = nombre;
+        }
+
         public override string Saludar()
         {
             
@@ -17,7 +21,7 @@ namespace _17d09
         public override string DecirMiNombre()
         {
 
-            return "Soy el Profesor";
+            return "Mi nombre es:" + this.nombre; //Se esta sobreescribiendo el metodo DecirMiNombre de Persona.cs
 
         }
 
