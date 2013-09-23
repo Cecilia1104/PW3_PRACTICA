@@ -16,29 +16,29 @@ namespace _17d09
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //Persona persona = new Persona();
-            //Alumno alumno = new Alumno("Pepe", 25);
-            //Label1.Text = "<h3>Saludo de Alumno</h3>"+ alumno.Saludar();
-            //Profesor profe = new Profesor();
+            //Primer ejemplo, muestra el saludo junto al nombre y la edad del alumno:
+            //Persona persona = new Persona(); no se puede instanciar una clase abstracta
+            Alumno alumno = new Alumno("Pepe", 25);
+            Label1.Text = "<h3>Saludo de Alumno</h3>" + alumno.Saludar();
 
-            //Label2.Text = "<h3>Saludo de Profesor</h3>"+ profe.Saludar();
+            //Segundo ejemplo: Muestra idem anterior pero del profesor:
 
-            Persona p;
-            p = new Alumno("Pedro", 21);
-           // MostrarMensaje(p);
-            //string msjAlumno = p.Saludar();
-            
-            //Persona profe = new Profesor("Pepe",25,1.7f);
-            // Label2.Text = profe.DecirMiNombre();
-           
-              MostrarMensaje(p);
-            //string msjProfesor = p.Saludar();
-            //Label1.Text = msjAlumno;
-            //Label2.Text = msjProfesor;
-        }
-        private void MostrarMensaje(Persona p)
-        {
-            Label1.Text = p.Saludar();
+            Persona profe = new Profesor("Pepe", 25, 1.7f);
+            Label2.Text = "<h3>Saludo de Profesor</h3>" + profe.Saludar();
+            Label3.Text = profe.DecirMiNombre();
+
+
+
+            //Otra forma de hacer el Primer ejemplo:
+            //    Persona p = new Alumno ("Pedro", 21);
+            //    MostrarMensaje(p);
+            //    string msjAlumno = p.Saludar();
+
+            //}
+            //private void MostrarMensaje(Persona p)
+            //{
+            //    Label2.Text = p.Saludar();
+            //}
         }
     }
 }

@@ -22,7 +22,8 @@ namespace _17d09
         }
         public abstract string Saludar();
 
-        public virtual string DecirMiNombre() {
+        public virtual string DecirMiNombre() 
+        {
             return this.nombre;
         }
             

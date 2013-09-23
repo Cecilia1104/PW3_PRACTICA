@@ -4,8 +4,9 @@ using System.Linq;
 using System.Web;
 
 namespace _17d09
-{
-    public class Dvd: IAparatoElectronico   {
+{  //Herencia
+    public class Dvd: IAparatoElectronico  
+    {
         public void Encender()
         {
             throw new NotImplementedException();

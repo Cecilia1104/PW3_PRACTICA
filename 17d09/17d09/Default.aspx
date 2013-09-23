@@ -7,15 +7,10 @@
     <h2>
         ASP.NET
     </h2>
-    <p>
-        Para obtener más información acerca de ASP.NET, visite <a href="http://www.asp.net" title="Sitio web de ASP.NET">www.asp.net</a>.
-    </p>
-    <p>
-        También puede encontrar <a href="http://go.microsoft.com/fwlink/?LinkID=152368"
-            title="Documentación de ASP.NET en MSDN">documentación sobre ASP.NET en MSDN</a>.
-    </p>
+   
     <asp:Button ID="Button1" runat="server" Text="Button" onclick="Button1_Click" /><br />
 
     <asp:Label ID="Label1" runat="server" Text=""></asp:Label><br />
-    <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
+    <asp:Label ID="Label2" runat="server" Text=""></asp:Label><br />
+    <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
 </asp:Content>
