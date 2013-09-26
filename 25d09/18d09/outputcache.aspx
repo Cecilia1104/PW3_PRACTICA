@@ -10,4 +10,5 @@
     <a href="outputcache.aspx?Parametro=3">Link 3</a>
     <br />
     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <asp:Substitution ID="sc" runat="server" MethodName="SinCache" />
 </asp:Content>

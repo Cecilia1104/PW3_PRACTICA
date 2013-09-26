@@ -8,3 +8,8 @@ I:\18d09\18d09\obj\Debug\18d09.dll
 I:\18d09\18d09\bin\18d09.dll
 I:\18d09\18d09\bin\18d09.pdb
 I:\18d09\18d09\obj\Debug\18d09.pdb
+C:\Documents and Settings\Vaio\PW3_PRACTICA\25d09\18d09\bin\18d09.dll
+C:\Documents and Settings\Vaio\PW3_PRACTICA\25d09\18d09\bin\18d09.pdb
+C:\Documents and Settings\Vaio\PW3_PRACTICA\25d09\18d09\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\PW3_PRACTICA\25d09\18d09\obj\Debug\18d09.dll
+C:\Documents and Settings\Vaio\PW3_PRACTICA\25d09\18d09\obj\Debug\18d09.pdb

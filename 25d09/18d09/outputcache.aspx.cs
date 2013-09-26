@@ -12,8 +12,9 @@ namespace _18d09
         protected void Page_Load(object sender, EventArgs e)
         {
             Label1.Text = DateTime.Now.ToString();
-
-
+        }
+        protected static String SinCache (HttpContext sc)
+        { return String.Format("<h1>No cachea:{0}</h1>", DateTime.Now.ToString()); //Cache primera parte y refresca.
         }
     }
 }
