@@ -1,0 +1,14 @@
+c:\users\eavellaneda\documents\visual studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\bin\MastreYsiteMaps.dll
+c:\users\eavellaneda\documents\visual studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\bin\MastreYsiteMaps.pdb
+c:\users\eavellaneda\documents\visual studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\ResolveAssemblyReference.cache
+c:\users\eavellaneda\documents\visual studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\MastreYsiteMaps.dll
+c:\users\eavellaneda\documents\visual studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\MastreYsiteMaps.pdb
+C:\Users\Juliana\Documents\Visual Studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\bin\MastreYsiteMaps.dll
+C:\Users\Juliana\Documents\Visual Studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\bin\MastreYsiteMaps.pdb
+C:\Users\Juliana\Documents\Visual Studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\MastreYsiteMaps.dll
+C:\Users\Juliana\Documents\Visual Studio 2010\Projects\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\MastreYsiteMaps.pdb
+C:\Documents and Settings\Vaio\Escritorio\MastreYsiteMaps\MastreYsiteMaps\bin\MastreYsiteMaps.dll
+C:\Documents and Settings\Vaio\Escritorio\MastreYsiteMaps\MastreYsiteMaps\bin\MastreYsiteMaps.pdb
+C:\Documents and Settings\Vaio\Escritorio\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\Escritorio\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\MastreYsiteMaps.dll
+C:\Documents and Settings\Vaio\Escritorio\MastreYsiteMaps\MastreYsiteMaps\obj\Debug\MastreYsiteMaps.pdb

@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage2.Master" AutoEventWireup="true" CodeBehind="MasterPageAnidada.master.cs" Inherits="MastreYsiteMaps.MasterPageAnidada" %>
+<asp:Content runat="server" ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1">
+ 
+    <asp:ContentPlaceHolder id="ContentPlaceMaster" runat="server">
+ </asp:ContentPlaceHolder>
+ es la master...anidada
+</asp:Content>

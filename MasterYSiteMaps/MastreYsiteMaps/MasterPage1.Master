@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage1.master.cs" Inherits="MastreYsiteMaps.MasterPage1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+  
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" href="Estilo.css" type="text/css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+  
+       
+        <div id="Encabezado">
+                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                
+                </asp:ContentPlaceHolder>
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+
+        </div>
+        
+
+        
+        <div id="Cuerpo">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+                
+                </asp:ContentPlaceHolder>
+                <asp:TextBox ID="txtmaster" runat="server"></asp:TextBox>
+        </div>
+         
+        
+        <div id="Pie">
+                <asp:ContentPlaceHolder id="pie" runat="server">
+                
+                </asp:ContentPlaceHolder>
+        </div>
+        
+    </form>
+     
+</body>
+
+</html>

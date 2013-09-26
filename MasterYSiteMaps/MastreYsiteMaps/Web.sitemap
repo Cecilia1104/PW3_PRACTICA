@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="Home"  description="Pagina de Inicio">
+      <siteMapNode url="~/PageDeMaster1.aspx" title="Index1"  description="Hereda la primer master"/>
+        <siteMapNode url="~/PageAnidada.aspx" title="Index2"  description="Hereda de La master anidada" />
+     
+        <siteMapNode url="~/PageSiteEj.aspx" title="SiteMap"  description="Ejemplo de mapa de sitio" />
+    </siteMapNode>
+</siteMap>
