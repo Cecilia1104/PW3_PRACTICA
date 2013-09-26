@@ -11,6 +11,7 @@ namespace _18d09
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             Label1.Text = Request.Form["txtpost"].ToString();
         }
     }

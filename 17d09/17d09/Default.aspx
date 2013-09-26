@@ -8,7 +8,7 @@
         ASP.NET
     </h2>
    
-    <asp:Button ID="Button1" runat="server" Text="Button" onclick="Button1_Click" /><br />
+   <asp:Button ID="Button1" runat="server" Text="Button" onclick="Button1_Click" /><br />
 
     <asp:Label ID="Label1" runat="server" Text=""></asp:Label><br />
     <asp:Label ID="Label2" runat="server" Text=""></asp:Label><br />

@@ -29,7 +29,7 @@ namespace _18d09
 
         protected void btncerrar_Click(object sender, EventArgs e)
         {
-                Session.Abandon();
+            Session.Contents.RemoveAll();
            
         }
     }
