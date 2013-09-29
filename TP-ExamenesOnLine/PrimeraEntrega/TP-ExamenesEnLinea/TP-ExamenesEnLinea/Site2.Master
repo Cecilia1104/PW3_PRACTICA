@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="TP_ExamenesEnLinea.Site2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css"
+        media="all" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css"
+        media="all" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Portal de examenes en linea</title>
+</head>
+<body class="body">
+    <div class="container">
+        <div class="modal-header text-center">
+            <h1 class="text-success">
+                Sistemas de Examenes OnLine</h1>
+                <div class="text-right text-info">
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </div>
+        </div>
+        <div class="">
+            <div class="btn-group">
+                <a href="EditarDatosAlumno.aspx" class="btn btn-large btn-info"><i class="icon-edit">
+                </i>Editar Mis Datos</a> <a href="ExamenesDisponiblesAlumnos.aspx" class="btn btn-large btn-info">
+                    <i class=" icon-list"></i>Examenes Disponibles</a> <a href="LoginUsuario.aspx" class="btn btn-large btn-info">
+                        <i class="icon-off"></i>Salir</a>
+            </div>
+        </div>
+        <br />
+        <form id="form1" runat="server" class="brand">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </form>
+        <div id="pie">
+            <div class="modal-footer">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+               || &nbsp;|&nbsp;<b>Copyright 2013- Avellaneda Juliana, Vaccaro Cecilia</b></div>
+        </div>
+    </div>
+</body>
+</html>
