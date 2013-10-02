@@ -1,0 +1,10 @@
+I:\24d09-2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+I:\24d09-2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+I:\24d09-2\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+I:\24d09-2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+I:\24d09-2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

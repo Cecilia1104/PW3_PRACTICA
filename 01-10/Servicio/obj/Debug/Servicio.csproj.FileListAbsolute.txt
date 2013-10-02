@@ -1,0 +1,10 @@
+I:\24d09-2\Servicio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\bin\Debug\Servicio.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\bin\Debug\Servicio.pdb
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\bin\Debug\AccesoDatos.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\bin\Debug\ClassLibrary1.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\bin\Debug\AccesoDatos.pdb
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\bin\Debug\ClassLibrary1.pdb
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\obj\Debug\Servicio.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\Servicio\obj\Debug\Servicio.pdb

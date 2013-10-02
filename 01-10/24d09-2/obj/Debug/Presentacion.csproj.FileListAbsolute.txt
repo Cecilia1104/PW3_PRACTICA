@@ -1,0 +1,8 @@
+I:\24d09-2\24d09-2\obj\Debug\ResolveAssemblyReference.cache
+I:\24d09-2\24d09-2\obj\Debug\24d09-2.dll
+I:\24d09-2\24d09-2\obj\Debug\24d09-2.pdb
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\24d09-2\bin\24d09-2.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\24d09-2\bin\24d09-2.pdb
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\24d09-2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\24d09-2\obj\Debug\24d09-2.dll
+C:\Documents and Settings\Vaio\Escritorio\24d09-2\24d09-2\obj\Debug\24d09-2.pdb
