@@ -12,7 +12,7 @@ En este repositorio se encontraran los ejercicios realizados en las distintas cl
 
 04d09: Formulario con validacion de campos.
 
-10, 11 y 17 del 09: POO
+10, 11 y 17 de 09: POO
 
 18d09:Pasaje de datos.
 
@@ -20,7 +20,7 @@ En este repositorio se encontraran los ejercicios realizados en las distintas cl
 
 25d09: Agregamos al del 18d09: Cache,Cookies y Cross Page PostBack.
 
-01-10: Mas de ADO.Net y separacion en capas.
+01d10: Mas de ADO.Net y separacion en capas.
 
 
 
