@@ -1,4 +1,4 @@
-Programacion Web 3 - UNLaM
+﻿Programacion Web 3 - UNLaM
 =================================
 
 En este repositorio se encontraran los ejercicios realizados en las distintas clases de la materia; organizados en su mayoria por fecha.
@@ -16,9 +16,11 @@ En este repositorio se encontraran los ejercicios realizados en las distintas cl
 
 18d09:Pasaje de datos.
 
-24d09:Introduccion ADO.
+24d09:Introduccion ADO.Net
 
 25d09: Agregamos al del 18d09: Cache,Cookies y Cross Page PostBack.
+
+01-10: Mas de ADO.Net y separacion en capas.
 
 
 
