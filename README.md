@@ -22,7 +22,7 @@ En este repositorio se encontraran los ejercicios realizados en las distintas cl
 
 01d10: Mas de ADO.Net y separacion en capas.
 
-02d10 (WebApplication3): Entity Framework.
+02d10(WebApplication3): Entity Framework.
 
 
 
