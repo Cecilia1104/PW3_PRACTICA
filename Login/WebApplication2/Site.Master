@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication2.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Practica Primer Parcial</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+ <div>Practica Primer Parcial de PW3</div> <%--Titulo de la aplicacion--%>
+    <form id="form1" runat="server">
+    <div>
+     <asp:ContentPlaceHolder ID="ContenidoPrincipal" runat="server">
+     </asp:ContentPlaceHolder> <%--Ejecuta el contenido de Default.aspx--%>
+    </div>
+    </form> 
+    <div class="footer"> <%--Pie de pagina--%>
+        Cecilia Vaccaro - 2013
+    </div>
+    
+</body>
+</html>

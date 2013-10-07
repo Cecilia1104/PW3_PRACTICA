@@ -1,0 +1,5 @@
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

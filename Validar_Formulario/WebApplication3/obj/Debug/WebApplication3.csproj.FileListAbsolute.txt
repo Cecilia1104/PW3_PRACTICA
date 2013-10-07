@@ -1,0 +1,10 @@
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication3\WebApplication3\bin\WebApplication3.dll
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication3\WebApplication3\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+c:\documents and settings\vaio\mis documentos\visual studio 2010\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\Validar_Formulario\WebApplication3\bin\WebApplication3.dll
+C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\Validar_Formulario\WebApplication3\bin\WebApplication3.pdb
+C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\Validar_Formulario\WebApplication3\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\Validar_Formulario\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Documents and Settings\Vaio\Mis documentos\Visual Studio 2010\Projects\Validar_Formulario\WebApplication3\obj\Debug\WebApplication3.pdb
