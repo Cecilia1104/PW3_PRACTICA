@@ -11,8 +11,17 @@ namespace WebApplication3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+		      if(Session["MiUsuario"]!=null)
+			  {
             Usuario user = (Usuario)Session["MiUsuario"];
             Label1.Text = "\nUsuario:  " + user.Nombre + "\nEmail:" + user.Email + "\nPassword:" + user.Password;
+			}
+        }
+		 protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            Session.Abandon();
+            Response.Redirect("Default.aspx");
         }
     }
 }

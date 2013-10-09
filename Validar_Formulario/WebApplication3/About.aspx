@@ -10,4 +10,5 @@
     <p>
         <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
     </p>
+	<asp:Button ID="Button1" runat="server" Text="Volver al formulario" onclick="Button1_Click" />
 </asp:Content>
