@@ -15,10 +15,13 @@ namespace WebApplication3
             if (Page.IsValid)
             {
                 lblaceptar.Text = "Bienvenido,Campos validados con exito!!";
+                Usuario usuario = new Usuario(txtnombre.Text, txtemail.Text, txtpass.Text);
+                Session["Usuario"] = usuario;
+                Response.Redirect("About.aspx");
             }
             else
             {
-                lblaceptar.Text = "";
+                lblaceptar.Text = "No se registro correctamente";
 
             }
         }

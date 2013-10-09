@@ -3,11 +3,11 @@
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
-<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="ContenidoPrincipal">
     <h2>
-        Acerca de
+         Bienvenido, estos son sus datos:
     </h2>
     <p>
-        Coloque contenido aquí.
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
     </p>
 </asp:Content>

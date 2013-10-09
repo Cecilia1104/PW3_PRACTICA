@@ -29,7 +29,7 @@
     <br />
 
     <asp:Label ID="lblpass" runat="server" Text="Password:"></asp:Label>
-    <div><asp:TextBox ID="txtpass" runat="server"></asp:TextBox></div> 
+    <div><asp:TextBox ID="txtpass" runat="server" TextMode="Password"></asp:TextBox></div> 
     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Campo requerido" ControlToValidate="txtpass"></asp:RequiredFieldValidator>
     <asp:CustomValidator ID="CustomValidator1" runat="server" 
         ErrorMessage="Ingreso erroneo, primer caracter en mayuscula y debe contener 1 numero" 
@@ -37,7 +37,7 @@
     <br />
 
     <asp:Label ID="lblrepass" runat="server" Text="Repetir Password:"></asp:Label>
-    <div><asp:TextBox ID="txtrepass" runat="server"></asp:TextBox></div>
+    <div><asp:TextBox ID="txtrepass" runat="server" TextMode="Password"></asp:TextBox></div>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Campo requerido" ControlToValidate="txtrepass"></asp:RequiredFieldValidator>
     <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Ambas contraseñas deben coincidir" ControlToValidate="txtrepass" ControlToCompare="txtpass"></asp:CompareValidator>
     <br />
