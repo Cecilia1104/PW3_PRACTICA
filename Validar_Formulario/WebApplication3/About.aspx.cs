@@ -11,7 +11,7 @@ namespace WebApplication3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Usuario user = (Usuario)Session["Usuario"];
+            Usuario user = (Usuario)Session["MiUsuario"];
             Label1.Text = "\nUsuario:  " + user.Nombre + "\nEmail:" + user.Email + "\nPassword:" + user.Password;
         }
     }

@@ -16,7 +16,11 @@ namespace WebApplication3
             {
                 lblaceptar.Text = "Bienvenido,Campos validados con exito!!";
                 Usuario usuario = new Usuario(txtnombre.Text, txtemail.Text, txtpass.Text);
-                Session["Usuario"] = usuario;
+                Session["MiUsuario"] = usuario;
+
+                //Session["MiUsuario"] = new Usuario(txtnombre.Text, txtemail.Text, txtpass.Text);
+                
+
                 Response.Redirect("About.aspx");
             }
             else
