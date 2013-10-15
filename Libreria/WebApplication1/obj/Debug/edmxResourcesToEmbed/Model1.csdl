@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="libreriaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="libreriaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clientes" EntityType="libreriaModel.clientes" />
+    <EntitySet Name="libros" EntityType="libreriaModel.libros" />
+    <EntitySet Name="sysdiagrams" EntityType="libreriaModel.sysdiagrams" />
+    <EntitySet Name="temas" EntityType="libreriaModel.temas" />
+    <EntitySet Name="ventas" EntityType="libreriaModel.ventas" />
+    <AssociationSet Name="FK__libros__idTema__0519C6AF" Association="libreriaModel.FK__libros__idTema__0519C6AF">
+      <End Role="temas" EntitySet="temas" />
+      <End Role="libros" EntitySet="libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ventas__idLibro__060DEAE8" Association="libreriaModel.FK__ventas__idLibro__060DEAE8">
+      <End Role="libros" EntitySet="libros" />
+      <End Role="ventas" EntitySet="ventas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="clientes">
+    <Key>
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="usuario" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="telefono" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="libros">
+    <Key>
+      <PropertyRef Name="idLibro" />
+    </Key>
+    <Property Name="idLibro" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idTema" Type="Int32" Nullable="false" />
+    <Property Name="titulo" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="precio" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="autor" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="temas" Relationship="libreriaModel.FK__libros__idTema__0519C6AF" FromRole="libros" ToRole="temas" />
+    <NavigationProperty Name="ventas" Relationship="libreriaModel.FK__ventas__idLibro__060DEAE8" FromRole="libros" ToRole="ventas" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="temas">
+    <Key>
+      <PropertyRef Name="idTema" />
+    </Key>
+    <Property Name="idTema" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tema" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="libros" Relationship="libreriaModel.FK__libros__idTema__0519C6AF" FromRole="temas" ToRole="libros" />
+  </EntityType>
+  <EntityType Name="ventas">
+    <Key>
+      <PropertyRef Name="idVentas" />
+    </Key>
+    <Property Name="idVentas" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idLibro" Type="Int32" Nullable="false" />
+    <Property Name="cliente" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="libros" Relationship="libreriaModel.FK__ventas__idLibro__060DEAE8" FromRole="ventas" ToRole="libros" />
+  </EntityType>
+  <Association Name="FK__libros__idTema__0519C6AF">
+    <End Role="temas" Type="libreriaModel.temas" Multiplicity="1" />
+    <End Role="libros" Type="libreriaModel.libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="temas">
+        <PropertyRef Name="idTema" />
+      </Principal>
+      <Dependent Role="libros">
+        <PropertyRef Name="idTema" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ventas__idLibro__060DEAE8">
+    <End Role="libros" Type="libreriaModel.libros" Multiplicity="1" />
+    <End Role="ventas" Type="libreriaModel.ventas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="libros">
+        <PropertyRef Name="idLibro" />
+      </Principal>
+      <Dependent Role="ventas">
+        <PropertyRef Name="idLibro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
