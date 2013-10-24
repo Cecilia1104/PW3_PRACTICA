@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebaModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PruebaModel1StoreContainer">
+    <EntitySet Name="Jugador" EntityType="PruebaModel1.Store.Jugador" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Seleccion" EntityType="PruebaModel1.Store.Seleccion" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tecnico" EntityType="PruebaModel1.Store.Tecnico" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__Jugador__idselec__0CBAE877" Association="PruebaModel1.Store.FK__Jugador__idselec__0CBAE877">
+      <End Role="Seleccion" EntitySet="Seleccion" />
+      <End Role="Jugador" EntitySet="Jugador" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tecnico__idselec__0F975522" Association="PruebaModel1.Store.FK__Tecnico__idselec__0F975522">
+      <End Role="Seleccion" EntitySet="Seleccion" />
+      <End Role="Tecnico" EntitySet="Tecnico" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Jugador">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="apellido" Type="nvarchar" MaxLength="50" />
+    <Property Name="idseleccion" Type="int" Nullable="false" />
+    <Property Name="edad" Type="int" />
+  </EntityType>
+  <EntityType Name="Seleccion">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tecnico">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="apellido" Type="nvarchar" MaxLength="50" />
+    <Property Name="idseleccion" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Jugador__idselec__0CBAE877">
+    <End Role="Seleccion" Type="PruebaModel1.Store.Seleccion" Multiplicity="1" />
+    <End Role="Jugador" Type="PruebaModel1.Store.Jugador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Seleccion">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Jugador">
+        <PropertyRef Name="idseleccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tecnico__idselec__0F975522">
+    <End Role="Seleccion" Type="PruebaModel1.Store.Seleccion" Multiplicity="1" />
+    <End Role="Tecnico" Type="PruebaModel1.Store.Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Seleccion">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tecnico">
+        <PropertyRef Name="idseleccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebaModel1StoreContainer" CdmEntityContainer="PruebaEntities1">
+    <EntitySetMapping Name="Jugador">
+      <EntityTypeMapping TypeName="PruebaModel1.Jugador">
+        <MappingFragment StoreEntitySet="Jugador">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="idseleccion" ColumnName="idseleccion" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seleccion">
+      <EntityTypeMapping TypeName="PruebaModel1.Seleccion">
+        <MappingFragment StoreEntitySet="Seleccion">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tecnico">
+      <EntityTypeMapping TypeName="PruebaModel1.Tecnico">
+        <MappingFragment StoreEntitySet="Tecnico">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="idseleccion" ColumnName="idseleccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

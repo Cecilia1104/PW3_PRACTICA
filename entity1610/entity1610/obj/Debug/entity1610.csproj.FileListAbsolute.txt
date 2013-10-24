@@ -1,0 +1,15 @@
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\entity1610\entity1610\bin\entity1610.dll
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\entity1610\entity1610\bin\entity1610.pdb
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\entity1610\entity1610\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\entity1610\entity1610\obj\Debug\entity1610.dll
+C:\Users\lab5sql\Documents\Visual Studio 2010\Projects\entity1610\entity1610\obj\Debug\entity1610.pdb
+C:\Documents and Settings\Vaio\Escritorio\entity1610\entity1610\bin\entity1610.dll
+C:\Documents and Settings\Vaio\Escritorio\entity1610\entity1610\bin\entity1610.pdb
+C:\Documents and Settings\Vaio\Escritorio\entity1610\entity1610\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vaio\Escritorio\entity1610\entity1610\obj\Debug\entity1610.dll
+C:\Documents and Settings\Vaio\Escritorio\entity1610\entity1610\obj\Debug\entity1610.pdb
+C:\Users\lab5sql\Desktop\entity1610\entity1610\bin\entity1610.dll
+C:\Users\lab5sql\Desktop\entity1610\entity1610\bin\entity1610.pdb
+C:\Users\lab5sql\Desktop\entity1610\entity1610\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lab5sql\Desktop\entity1610\entity1610\obj\Debug\entity1610.dll
+C:\Users\lab5sql\Desktop\entity1610\entity1610\obj\Debug\entity1610.pdb

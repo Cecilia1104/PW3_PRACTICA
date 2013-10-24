@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PruebaModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="PruebaModel1StoreContainer">
+          <EntitySet Name="Jugador" EntityType="PruebaModel1.Store.Jugador" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Seleccion" EntityType="PruebaModel1.Store.Seleccion" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tecnico" EntityType="PruebaModel1.Store.Tecnico" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__Jugador__idselec__0CBAE877" Association="PruebaModel1.Store.FK__Jugador__idselec__0CBAE877">
+            <End Role="Seleccion" EntitySet="Seleccion" />
+            <End Role="Jugador" EntitySet="Jugador" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tecnico__idselec__0F975522" Association="PruebaModel1.Store.FK__Tecnico__idselec__0F975522">
+            <End Role="Seleccion" EntitySet="Seleccion" />
+            <End Role="Tecnico" EntitySet="Tecnico" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Jugador">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="nvarchar" MaxLength="50" />
+          <Property Name="apellido" Type="nvarchar" MaxLength="50" />
+          <Property Name="idseleccion" Type="int" Nullable="false" />
+          <Property Name="edad" Type="int" />
+        </EntityType>
+        <EntityType Name="Seleccion">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tecnico">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="apellido" Type="nvarchar" MaxLength="50" />
+          <Property Name="idseleccion" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Jugador__idselec__0CBAE877">
+          <End Role="Seleccion" Type="PruebaModel1.Store.Seleccion" Multiplicity="1" />
+          <End Role="Jugador" Type="PruebaModel1.Store.Jugador" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Seleccion">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Jugador">
+              <PropertyRef Name="idseleccion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tecnico__idselec__0F975522">
+          <End Role="Seleccion" Type="PruebaModel1.Store.Seleccion" Multiplicity="1" />
+          <End Role="Tecnico" Type="PruebaModel1.Store.Tecnico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Seleccion">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Tecnico">
+              <PropertyRef Name="idseleccion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PruebaModel1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="PruebaEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Jugador" EntityType="PruebaModel1.Jugador" />
+          <EntitySet Name="Seleccion" EntityType="PruebaModel1.Seleccion" />
+          <EntitySet Name="Tecnico" EntityType="PruebaModel1.Tecnico" />
+          <AssociationSet Name="FK__Jugador__idselec__0CBAE877" Association="PruebaModel1.FK__Jugador__idselec__0CBAE877">
+            <End Role="Seleccion" EntitySet="Seleccion" />
+            <End Role="Jugador" EntitySet="Jugador" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tecnico__idselec__0F975522" Association="PruebaModel1.FK__Tecnico__idselec__0F975522">
+            <End Role="Seleccion" EntitySet="Seleccion" />
+            <End Role="Tecnico" EntitySet="Tecnico" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Jugador">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="apellido" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="idseleccion" Type="Int32" Nullable="false" />
+          <Property Name="edad" Type="Int32" />
+          <NavigationProperty Name="Seleccion" Relationship="PruebaModel1.FK__Jugador__idselec__0CBAE877" FromRole="Jugador" ToRole="Seleccion" />
+        </EntityType>
+        <EntityType Name="Seleccion">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Jugador" Relationship="PruebaModel1.FK__Jugador__idselec__0CBAE877" FromRole="Seleccion" ToRole="Jugador" />
+          <NavigationProperty Name="Tecnico" Relationship="PruebaModel1.FK__Tecnico__idselec__0F975522" FromRole="Seleccion" ToRole="Tecnico" />
+        </EntityType>
+        <EntityType Name="Tecnico">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="apellido" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="idseleccion" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Seleccion" Relationship="PruebaModel1.FK__Tecnico__idselec__0F975522" FromRole="Tecnico" ToRole="Seleccion" />
+        </EntityType>
+        <Association Name="FK__Jugador__idselec__0CBAE877">
+          <End Role="Seleccion" Type="PruebaModel1.Seleccion" Multiplicity="1" />
+          <End Role="Jugador" Type="PruebaModel1.Jugador" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Seleccion">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Jugador">
+              <PropertyRef Name="idseleccion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tecnico__idselec__0F975522">
+          <End Role="Seleccion" Type="PruebaModel1.Seleccion" Multiplicity="1" />
+          <End Role="Tecnico" Type="PruebaModel1.Tecnico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Seleccion">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Tecnico">
+              <PropertyRef Name="idseleccion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PruebaModel1StoreContainer" CdmEntityContainer="PruebaEntities1">
+          <EntitySetMapping Name="Jugador"><EntityTypeMapping TypeName="PruebaModel1.Jugador"><MappingFragment StoreEntitySet="Jugador">
+            <ScalarProperty Name="id" ColumnName="id" />
+            <ScalarProperty Name="nombre" ColumnName="nombre" />
+            <ScalarProperty Name="apellido" ColumnName="apellido" />
+            <ScalarProperty Name="idseleccion" ColumnName="idseleccion" />
+            <ScalarProperty Name="edad" ColumnName="edad" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Seleccion"><EntityTypeMapping TypeName="PruebaModel1.Seleccion"><MappingFragment StoreEntitySet="Seleccion">
+            <ScalarProperty Name="id" ColumnName="id" />
+            <ScalarProperty Name="nombre" ColumnName="nombre" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tecnico"><EntityTypeMapping TypeName="PruebaModel1.Tecnico"><MappingFragment StoreEntitySet="Tecnico">
+            <ScalarProperty Name="id" ColumnName="id" />
+            <ScalarProperty Name="nombre" ColumnName="nombre" />
+            <ScalarProperty Name="apellido" ColumnName="apellido" />
+            <ScalarProperty Name="idseleccion" ColumnName="idseleccion" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model2">
+        <EntityTypeShape EntityType="PruebaModel1.Jugador" Width="1.5" PointX="3" PointY="1" Height="1.9210009765624998" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebaModel1.Seleccion" Width="1.5" PointX="0.75" PointY="2.5" Height="1.5923063151041661" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebaModel1.Tecnico" Width="1.5" PointX="3" PointY="3.75" Height="1.7566536458333335" IsExpanded="true" />
+        <AssociationConnector Association="PruebaModel1.FK__Jugador__idselec__0CBAE877" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.71050048828125" />
+          <ConnectorPoint PointX="3" PointY="2.71050048828125" />
+        </AssociationConnector>
+        <AssociationConnector Association="PruebaModel1.FK__Tecnico__idselec__0F975522" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="3.9211531575520828" />
+          <ConnectorPoint PointX="3" PointY="3.9211531575520828" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
